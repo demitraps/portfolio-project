@@ -16,11 +16,13 @@ h3 {
   text-transform: uppercase;
   line-height: 18px;
   font-weight: 200;
+  letter-spacing: 1px;
 }
 
 h1 {
   font-weight: 300;
   font-size: 15px;
+  letter-spacing: 1px;
 }
 
 h2 {
@@ -33,6 +35,28 @@ h3 {
   font-size: 14px;
 }
 
+h4 {
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: var(--dark-text-color);
+  color: var(--lighter-text-color);
+}
+
+h5 {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--lighter-text-color);
+  color: var(--dark-text-color);
+}
+
+p {
+  font-family: var(--heading-font-family);
+}
+
+img {
+  border-radius: 1px;
+}
+
 .hero {
   background-color: var(--light-background-color);
   text-align: end;
@@ -42,6 +66,7 @@ h3 {
 .name {
   color: var(--dark-text-color);
   font-weight: 500;
+  padding-right: 5px;
 }
 
 .btn-branding {
@@ -52,4 +77,130 @@ h3 {
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
+  transition: all 300ms ease-in-out;
+}
+
+.btn-branding:hover {
+  color: var(--dark-text-color);
+  background-color: var(--light-background-color);
+  border: 1px solid var(--dark-text-color);
+  font-weight: 700;
+}
+
+.btn-learn-more {
+  color: var(--dark-text-color);
+  background-color: var(--light-background-color);
+  border-radius: 1px;
+  padding: 14px 30px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 300ms ease-in-out;
+}
+
+.btn-learn-more:hover {
+  color: var(--light-background-color);
+  background-color: var(--lighter-text-color);
+}
+.btn-learn-more-origami {
+  color: var(--light-background-color);
+  background-color: var(--lighter-text-color);
+
+  border-radius: 1px;
+  padding: 14px 30px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 300ms ease-in-out;
+}
+
+.btn-learn-more-origami:hover {
+  color: var(--dark-text-color);
+  background-color: var(--light-background-color);
+}
+
+.dictionary {
+  color: var(--lighter-text-color);
+}
+
+.btn-coming-soon {
+  color: var(--dark-text-color);
+  background-color: #f7f3eb;
+  border-radius: 1px;
+  padding: 14px 30px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 300ms ease-in-out;
+}
+
+.btn-coming-soon:hover {
+  color: var(--light-background-color);
+  background-color: #a19595;
+  cursor: default;
+}
+
+@media (max-width: 576px) {
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    letter-spacing: 0;
+  }
+  h2 {
+    font-size: 40px;
+    padding: 35px 0;
+  }
+
+  .hero {
+    padding: 80px;
+  }
+  .btn-branding {
+    display: block;
+    margin: 0 auto;
+  }
+  .featured-title {
+    padding: 12px 0 !important;
+    margin-bottom: 20px !important;
+  }
+  .btn-learn-more,
+  .btn-learn-more-origami,
+  .btn-coming-soon {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 300px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  h2 {
+    font-size: 30px;
+    padding: 30px 0;
+  }
+  .hero {
+    padding: 60px;
+  }
+  .btn-branding {
+    font-size: 12px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 12px;
+  }
+  .featured-title {
+    padding: 8px 0 !important;
+  }
+  .btn-learn-more,
+  .btn-learn-more-origami,
+  .btn-coming-soon {
+    display: block;
+    margin: 0 auto;
+  }
 }
