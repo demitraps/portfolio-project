@@ -184,6 +184,19 @@ img {
     margin: 0 auto;
   }
 }
+
+@media (max-width: 768px) {
+  h5 {
+    text-align: center;
+  }
+  .btn-learn-more,
+  .btn-learn-more-origami,
+  .btn-coming-soon {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 576px) {
   h1,
   h2,
