@@ -63,6 +63,16 @@ img {
   padding: 160px;
 }
 
+.about-hero {
+  background-color: var(--light-background-color);
+  text-align: start;
+  padding: 120px;
+}
+
+.about-hero-content {
+  padding: 20px 40px;
+}
+
 .name {
   color: var(--dark-text-color);
   font-weight: 500;
@@ -143,6 +153,37 @@ img {
   cursor: default;
 }
 
+.interested {
+  font-size: 40px;
+}
+
+.profile-photo {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .interested {
+    font-size: 30px;
+    text-align: center;
+  }
+  .about-hero {
+    padding: 80px;
+  }
+  .hopacho-button,
+  .github-button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  p {
+    text-align: center;
+  }
+  .profile-photo {
+    display: block;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 576px) {
   h1,
   h2,
@@ -180,6 +221,23 @@ img {
   .btn-coming-soon {
     display: block;
     margin: 0 auto;
+  }
+
+  .about-hero {
+    padding: 40px;
+  }
+  .about-description {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .interested {
+    font-size: 20px;
+    padding: 25px !important;
+    margin: 22px !important;
+  }
+  .hopacho-button,
+  .github-button {
+    margin-bottom: 5px;
   }
 }
 @media (max-width: 300px) {
@@ -224,5 +282,16 @@ img {
   .btn-coming-soon {
     display: block;
     margin: 0 auto;
+  }
+  .about-hero {
+    padding: 30px;
+  }
+  .about-description {
+    font-size: 10px;
+  }
+  .interested {
+    font-size: 16px;
+    padding: 20px !important;
+    margin: 18px !important;
   }
 }
