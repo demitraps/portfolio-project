@@ -75,6 +75,23 @@ img {
   padding: 90px;
 }
 
+.contact-hero {
+  background-color: var(--dark-text-color);
+  color: #fff;
+  text-align: center;
+  padding: 90px;
+}
+.contact-hero h4 {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.contact-hero p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 100;
+}
+
 .projects-hero h4 {
   font-size: 30px;
   letter-spacing: 2px;
@@ -216,6 +233,20 @@ img {
 .profile-photo {
   display: block;
   margin: 0 auto;
+}
+
+.social {
+  background-color: var(--light-background-color);
+}
+.social a {
+  color: var(--dark-text-color);
+  font-size: 30px;
+  transition: all 300ms ease-in-out;
+}
+
+.social a:hover {
+  color: var(--lighter-text-color);
+  font-size: 30px;
 }
 
 @media (max-width: 1200px) {
@@ -374,7 +405,8 @@ img {
     margin: 0 auto;
   }
   .about-hero,
-  .projects-hero {
+  .projects-hero,
+  .contact-hero {
     padding: 30px;
   }
   .about-description {
