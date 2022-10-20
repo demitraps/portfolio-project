@@ -191,6 +191,24 @@ img {
   font-weight: 500;
 }
 
+.etsy-button {
+  color: var(--dark-text-color);
+  background-color: #b8926a;
+  border-radius: 1px;
+  padding: 14px 150px;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 300ms ease-in-out;
+}
+
+.etsy-button:hover {
+  color: #fff;
+  background-color: var(--dark-text-color);
+  font-weight: 500;
+}
+
 .interested {
   font-size: 40px;
 }
@@ -289,6 +307,27 @@ img {
   .hopacho-button,
   .github-button {
     margin-bottom: 5px;
+  }
+
+  .projects-hero h4 {
+    font-size: 18px;
+  }
+  .origami-list {
+    padding-top: 8px !important;
+    padding-bottom: 2px !important;
+  }
+  .skills {
+    padding-bottom: 10px !important;
+  }
+  .origami-heading {
+    margin-bottom: 2px;
+  }
+  .skills p {
+    font-size: 8px;
+    padding: 4px;
+  }
+  .etsy-button {
+    padding: 14px 100px;
   }
 }
 @media (max-width: 300px) {
