@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=h1, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Demitra is a front-end developer and origami artist based in Athens, Greece. She creates origami wedding invitations and favor boxes under her brand, Hopacho, and is currently exploring the world of coding."
+    />
+    <title>Hopacho Origami Projects</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,10 +30,10 @@
   <body>
     <nav class="navbar navbar-expand-lg fixed-top bg-custom">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="/" title="Homepage">
           <img
             src="/images/hlogo.png"
-            alt="Logo"
+            alt="hopacho logo"
             width="30"
             height="29"
             class="d-inline-block align-text-top"
@@ -51,11 +55,34 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav">
-            <a class="nav-link me-4" aria-current="page" href="/">Home</a>
-            <a class="nav-link me-4" href="/about.html">About</a>
-            <a class="nav-link me-4" href="/projects.html">Projects</a>
-            <a class="nav-link me-4 active" href="/origami.html">Origami</a>
-            <a class="nav-link me-4" href="/contact.html">Contact</a>
+            <a
+              class="nav-link me-4"
+              aria-current="page"
+              href="/"
+              title="Homepage"
+              >Home</a
+            >
+            <a class="nav-link me-4" href="/about.html" title="about Demitra"
+              >About</a
+            >
+            <a
+              class="nav-link me-4"
+              href="/projects.html"
+              title="coding projects"
+              >Projects</a
+            >
+            <a
+              class="nav-link me-4 active"
+              href="/origami.html"
+              title="origami projects"
+              >Origami</a
+            >
+            <a
+              class="nav-link me-4"
+              href="/contact.html"
+              title="Contact Demitra"
+              >Contact</a
+            >
           </div>
         </div>
       </div>
@@ -63,10 +90,11 @@
     <div class="projects-hero">
       <h4 class="text-center lh-base pt-5 pb-3">Origami designs</h4>
       <p class="about-description text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        Whether you are looking for origami invitations for your special day, a
+        card for a loved one, a unique way of sharing gifts, a minimal Christmas
+        ornament or a bookmark to decorate your book with, Hopacho has you
+        covered. See below some selected work and check my Etsy shop and
+        Instagram page for more!
       </p>
     </div>
     <div class="container">
@@ -74,7 +102,7 @@
         <div class="col-xl-6">
           <img
             src="/images/origamiinvitation.png"
-            alt="Weather app"
+            alt="Origami wedding invitations"
             class="img-fluid"
             id="invitations"
           />
@@ -93,12 +121,17 @@
               href="https://www.etsy.com/shop/Hopacho?section_id=26438690"
               class="btn btn-branding etsy-button"
               target="_blank"
+              title="Shop origami wedding invitations on Etsy"
               >View on Etsy</a
             >
           </div>
         </div>
         <div class="col-xl-6">
-          <img src="/images/favorbox.png" alt="Weather app" class="img-fluid" />
+          <img
+            src="/images/favorbox.png"
+            alt="origami favor boxes"
+            class="img-fluid"
+          />
 
           <h5 class="pb-1 pt-4 text-center origami-heading">
             Origami Favor Boxes
@@ -114,6 +147,7 @@
               href="https://www.etsy.com/shop/Hopacho?section_id=27927122"
               class="btn btn-branding etsy-button"
               target="_blank"
+              title="Shop origami favor boxes on Etsy"
               >View on Etsy</a
             >
           </div>
@@ -123,7 +157,7 @@
         <div class="col-xl-6">
           <img
             src="/images/origamiornament.png"
-            alt="Weather app"
+            alt="Origami Christmas ornament"
             class="img-fluid"
           />
 
@@ -141,6 +175,7 @@
               href="https://www.etsy.com/shop/Hopacho?section_id=27525801"
               class="btn btn-branding etsy-button"
               target="_blank"
+              title="Shop origami christmas ornaments on Etsy"
               >View on Etsy</a
             >
           </div>
@@ -148,7 +183,7 @@
         <div class="col-xl-6">
           <img
             src="/images/origamibookmark.png"
-            alt="Weather app"
+            alt="Origami bookmark"
             class="img-fluid bookmark"
           />
 
@@ -165,6 +200,7 @@
               href="https://www.etsy.com/shop/Hopacho?section_id=32538562"
               class="btn btn-branding etsy-button"
               target="_blank"
+              title="Shop origami bookmarks on Etsy"
               >View on Etsy</a
             >
           </div>
@@ -180,7 +216,10 @@
           </div>
           <div class="col d-none d-lg-block"></div>
           <div class="col">
-            <a href="mailto:hellodemitra@gmail.com" class="btn btn-learn-more"
+            <a
+              href="/contact.html"
+              class="btn btn-learn-more"
+              title="Contact Demitra"
               >Contact me</a
             >
           </div>
@@ -193,18 +232,21 @@
             <a
               href="https://instagram.com/demitra_ps"
               target="_blank"
+              title="Demitra's Instagram page"
               class="d-block text-center"
               ><i class="fa-brands fa-instagram"></i> Instagram</a
             >
             <a
               href="https://github.com/demitraps/"
               target="_blank"
+              title="Demitra's Github page"
               class="d-block text-center"
               ><i class="fa-brands fa-github"></i> Github</a
             >
             <a
               href="mailto:hellodemitra@gmail.com"
               target="_blank"
+              title="Demitra's email address"
               class="d-block text-center"
               ><i class="fa-solid fa-envelope"></i> Email</a
             >
@@ -214,18 +256,21 @@
             <a
               href="https://instagram.com/hopacho"
               target="_blank"
+              title="Hopacho's Instagram page"
               class="d-block text-center"
               ><i class="fa-brands fa-instagram"></i> Instagram</a
             >
             <a
               href="https://www.etsy.com/shop/Hopacho"
               target="_blank"
+              title="Hopacho's Etsy shop"
               class="d-block text-center"
               ><i class="fa-brands fa-etsy"></i> Etsy shop</a
             >
             <a
               href="mailto:demi@hopacho.com"
               target="_blank"
+              title="Hopacho's Email address"
               class="d-block text-center"
               ><i class="fa-solid fa-envelope"></i> Email</a
             >
@@ -234,6 +279,7 @@
             <a
               href="https://github.com/demitraps/portfolio-project"
               target="_blank"
+              title="Github repository for this project"
               >Open source code</a
             >
             by Demitra Ps

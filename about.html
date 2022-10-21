@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=h1, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Demitra is a front-end developer and origami artist based in Athens, Greece. She creates origami wedding invitations and favor boxes under her brand, Hopacho, and is currently exploring the world of coding."
+    />
+    <title>About Demitra</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,10 +30,10 @@
   <body>
     <nav class="navbar navbar-expand-lg fixed-top bg-custom-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="/" title="Homepage">
           <img
             src="/images/hlogodark.png"
-            alt="Logo"
+            alt="hopacho logo"
             width="45"
             height="40"
             class="d-inline-block align-text-top"
@@ -48,11 +52,34 @@
         </button>
         <div class="collapse navbar-collapse pt-1" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link me-3" aria-current="page" href="/">Home</a>
-            <a class="nav-link me-3 active" href="/about.html">About</a>
-            <a class="nav-link me-3" href="/projects.html">Projects</a>
-            <a class="nav-link me-3" href="/origami.html">Origami</a>
-            <a class="nav-link me-3" href="/contact.html">Contact</a>
+            <a
+              class="nav-link me-3"
+              aria-current="page"
+              href="/"
+              title="Homepage"
+              >Home</a
+            >
+            <a
+              class="nav-link me-3 active"
+              href="/about.html"
+              title="about Demitra"
+              >About</a
+            >
+            <a
+              class="nav-link me-3"
+              href="/projects.html"
+              title="coding projects"
+              >Projects</a
+            >
+            <a
+              class="nav-link me-3"
+              href="/origami.html"
+              title="origami projects"
+              >Origami</a
+            >
+            <a class="nav-link me-3" href="/contact.html" title="contact"
+              >Contact</a
+            >
           </div>
         </div>
       </div>
@@ -67,16 +94,23 @@
             </h1>
             <h3 class="pt-1 pb-4">Based in Athens, Greece</h3>
             <p class="about-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
+              <em>
+                A jack of all trades is a master of none, but oftentimes better
+                than a master of one.</em
+              >
+              With an intense love for Mathematics and Design, I studied
+              Architecture, where in the stressful times of presentations, I
+              found solace in the world of Origami. While searching in Japanese
+              books I couldn't understand for the next origami design to create,
+              I promised myself that I will learn this language one day. In the
+              meantime, I worked as a content creator, copywriter, social media
+              Manager, Customer Experience specialist, learned Calligraphy,
+              created my own origami brand, and maintained this unquenched
+              thirst of learning whatever comes my way. This brings us to today,
+              where I am discovering the world of Front-end Development, while
+              learning Japanese, working on my origami and trying to
+              (unsuccessfully may I add) get through my ever-growing TBR pile of
+              books.
             </p>
             <h2 class="interested mt-5 mb-5">
               Interested in finding out more?
@@ -85,12 +119,14 @@
               href="https://www.instagram.com/hopacho/"
               class="btn btn-branding hopacho-button"
               target="_blank"
+              title="Hopacho's Instagram page"
               >Hopacho <i class="fa-brands fa-instagram"></i
             ></a>
             <a
               href="https://github.com/demitraps/"
               class="btn btn-branding github-button"
               target="_blank"
+              title="Demitra's Github profile"
               >Github <i class="fa-brands fa-github"></i
             ></a>
           </div>
@@ -98,7 +134,7 @@
         <div class="col-xl-6">
           <img
             src="/images/profilephoto.png"
-            alt="profile photo"
+            alt="Demitra's profile photo"
             class="img-fluid profile-photo"
             width="80%"
           />
@@ -114,7 +150,10 @@
           </div>
           <div class="col d-none d-lg-block"></div>
           <div class="col">
-            <a href="mailto:hellodemitra@gmail.com" class="btn btn-learn-more"
+            <a
+              href="/contact.html"
+              class="btn btn-learn-more"
+              title="Contact Demitra"
               >Contact me</a
             >
           </div>
@@ -127,18 +166,21 @@
             <a
               href="https://instagram.com/demitra_ps"
               target="_blank"
+              title="Demitra's Instagram page"
               class="d-block text-center"
               ><i class="fa-brands fa-instagram"></i> Instagram</a
             >
             <a
               href="https://github.com/demitraps/"
               target="_blank"
+              title="Demitra's Github page"
               class="d-block text-center"
               ><i class="fa-brands fa-github"></i> Github</a
             >
             <a
               href="mailto:hellodemitra@gmail.com"
               target="_blank"
+              title="Demitra's email address"
               class="d-block text-center"
               ><i class="fa-solid fa-envelope"></i> Email</a
             >
@@ -148,18 +190,21 @@
             <a
               href="https://instagram.com/hopacho"
               target="_blank"
+              title="Hopacho's Instagram page"
               class="d-block text-center"
               ><i class="fa-brands fa-instagram"></i> Instagram</a
             >
             <a
               href="https://www.etsy.com/shop/Hopacho"
               target="_blank"
+              title="Hopacho's Etsy shop"
               class="d-block text-center"
               ><i class="fa-brands fa-etsy"></i> Etsy shop</a
             >
             <a
               href="mailto:demi@hopacho.com"
               target="_blank"
+              title="Hopacho's Email address"
               class="d-block text-center"
               ><i class="fa-solid fa-envelope"></i> Email</a
             >
@@ -168,6 +213,7 @@
             <a
               href="https://github.com/demitraps/portfolio-project"
               target="_blank"
+              title="Github repository for this project"
               >Open source code</a
             >
             by Demitra Ps
